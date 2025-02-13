@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Complete</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="payment_background">
+    
+    <h1>YOUR PAYMENT<br>HAS BEEN COMPLETED</h1>
+    <p>We're thrilled to let you know that your purchase has been successful.<br>
+         We will send you a confirmation email with all the relevant details shortly.<br>
+         If you don't receive the email within the next few minutes,<br>
+          please check your spam folder. Thank you for your purchase!</p>
+         
+    <!-- <a class="round_button"style="padding:1.5vh 2.0vw; text-decoration:none; border:1px solid #4A61BF; background-color:#FFFFFF; color: #4A61BF;" href="userMain.php">Explore More</a>
+     -->
+     <a class="button-more" href="userMain.php">
+        <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Explor More</span>
+    </a>
+
+</body>
+</html>
