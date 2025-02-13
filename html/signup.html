@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+
+        <!-- Stylesheets -->
+		<link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body style="background-color:#F5F5F5;">
+        <main>
+            <div class="parent_signup">
+                <div class="image_div">
+                    <img style="  border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;" src="/images/background.png" width="430" height="558">
+                    <img  class ="absoulte_logo"src="/images/logo.png" width="150" height="150">
+                    <div class="absolute_text">
+                        <p style="text-align:center; font-size:24px;">Welcome to Park Share</p>
+                        <p style="text-align:center;">To keep connected with us <br>Please log in with your account</p>
+                    </div>
+                    <div class="absolute_login">
+                        <a class ="login_button2"style="font-size:14px; padding: 0.5em 5.0em; text-decoration:none;"href="signup.php">Login</a>
+                    </div>
+                    
+
+
+                </div>
+                <div class="signup_div">
+                    <p><strong style="font-size:24px;">Create an Account</strong></p>
+                    <p style="color:#ADABAB; font-size:12px; margin:2.0em 0 4.0em 0;">Please enter your Information</p>
+                    <div class="name_div">
+                        <div class="input-block">
+                            <input style ="width:100px;" type="text" name="f_fname"  size="20"  required spellcheck="false">
+                            <span class="placeholder">First Name</span>
+                            <span class="comment"> <?php echo $fname_Err; ?></span><br><br>
+                        </div>
+                        <div class="input-block">
+                            <input style ="width:100px; margin-left:0.5em;" type="text" name="f_lname"  size="20"  required spellcheck="false">
+                            <span class="placeholder">Last Name</span>
+                            <span class="comment"> <?php echo $lname_Err; ?></span><br><br>
+                        </div>
+                    </div>
+
+                    <div class="input-block">
+                        <input style ="width:233.5px;" type="text" name="f_phone"  size="40"  required spellcheck="false">
+                        <span class="placeholder">Phone Number</span>
+                        <span class="comment"> <?php echo $phone_Err; ?></span><br><br>
+                    </div>
+
+                    
+                    <div class="name_div">
+                        <div class="input-block">
+                            <input style ="width:100px;" type="text" name="f_car"  size="20"  required spellcheck="false">
+                            <span class="placeholder">Car Type</span>
+                            <span class="comment"> <?php echo $car_Err; ?></span><br><br>
+                        </div>
+
+                        <div class="input-block">
+                            <input style ="width:100px; margin-left:0.5em;"  type="text" name="f_plateNum"  size="20"  required spellcheck="false">
+                            <span class="placeholder">Plate Number</span>
+                            <span class="comment"> <?php echo $plateNum_Err; ?></span><br><br>
+                        </div>
+                    </div>
+
+                    <div class="input-block">
+                        <input style ="width:233.5px;" type="text" name="f_email"  size="40"  required spellcheck="false">
+                        <span class="placeholder">Email</span>
+                        <span class="comment"> <?php echo $email_Err; ?></span><br><br>
+                    </div>
+    
+                    <div class="input-block">
+                        <input style ="width:233.5px;" type="text" name="f_password"  size="40"  required spellcheck="false">
+                        <span class="placeholder">Password</span>
+                        <span class="comment"> <?php echo $password_Err; ?></span><br><br>
+                    </div>
+                    <input style="width:130.5px; align-self:end; margin-right:1.0em;" class ="login_button2" type="submit" name="register" value="Sign Up"/>
+                    </form>
+                </div>
+
+
+            </div>
+
+        </main>
+    </body>
+
+
+
+</html>
